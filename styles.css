@@ -1,0 +1,76 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #e1e0e0;
+}
+
+/* General layout tweaks */
+.container,
+.hero,
+.purpose-section,
+.journey-section,
+.services-section,
+.other-services,
+.projects-section,
+.testimonial-section,
+.contact-section,
+.team-section {
+  padding: 2rem 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .hero,
+  .purpose-content,
+  .contact-info,
+  .journey-grid,
+  .services-grid,
+  .project-gallery,
+  .team-member {
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  .sidebar {
+    width: 100%;
+    position: relative;
+  }
+
+  .hero-text h2,
+  .purpose-left h2,
+  .journey-header h2,
+  .services-header h2,
+  .projects-header h2,
+  .testimonial-section h2,
+  .contact-section h2,
+  .team-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .stat-box {
+    width: 100% !important;
+  }
+
+  .profile-img {
+    margin-bottom: 1rem;
+  }
+
+  .team-member {
+    gap: 1rem !important;
+  }
+
+  .hero {
+    padding: 2rem 1rem;
+  }
+
+  .btn,
+  .btn-solid {
+    display: block;
+    margin: 1rem auto;
+  }
+}
