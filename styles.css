@@ -280,3 +280,17 @@ section {
     padding-left: 0;
   }
 }
+
+
+/* Ensure sidebar spans full height on all devices */
+.sidebar {
+  min-height: 100vh;
+}
+
+@media screen and (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    min-height: auto;
+    padding: 1rem;
+  }
+}
